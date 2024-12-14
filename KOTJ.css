@@ -1,0 +1,179 @@
+body {
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-origin: padding-box;
+	background-image: url("Jo Lan/body.jpg");
+}
+
+a {
+	text-decoration: underline;
+	color: hsla(0,95%,34%,1);
+	margin-right: px;
+		
+}
+
+p {
+	font-family: inika;
+	font-style: normal;
+	font-weight: 400;
+	font-size: medium;
+}
+
+#container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-family: inika;
+	letter-spacing: .4em;
+	font-size: xx-large;
+	font-style: normal;
+	font-weight: 700;
+	text-decoration: underline;
+	text-indent: 0px;
+	text-shadow: 0px 0px 35px hsla(0,0%,0%,1.00);
+	padding-bottom: px;
+	
+}
+
+h3 {
+	color: #000000;
+	text-decoration: underline;
+	letter-spacing: .2em;
+	margin-left: px;
+}
+
+#header {
+	font-family: "Copperplate Gothic Bold";
+	padding-top: 46px;
+	padding-right: 46px;
+	padding-left: 46px;
+	padding-bottom: 15px;
+	color: #FFFFFF;
+	background-image: url( "job1.png");
+	background-size: 100% 100%;
+	background-attachment: scroll;
+}
+#topnav {
+	color: black;
+	background-color: wheat;
+	height: 43px;
+	background-image: url("B.jpg");
+	padding-top: 1px;
+	
+}
+
+#topnav a {
+	color: black;
+	font-family: inika;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#topnav li {
+	display: inline;
+	list-style: none;
+	float: left;
+	padding: 10px;
+	margin-right: 15px;
+}
+
+#content {
+	height: 850px;
+	background-attachment: scroll;
+	background-color: wheat;
+	webkit-box-shadow: px 0px;
+	box-shadow: px 0px;
+}
+
+#sidenav {
+	width: 160px;
+	float: left;
+	
+}
+
+#sidenav li {
+	
+	list-style: square
+
+}
+
+#sidenav a {
+	
+	color: red;
+}
+
+
+#main {
+	width: 580px;
+	float: left;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+#content #sidenav h3 {
+}
+.h4 {
+	font-family: inika;
+	font-style: normal;
+	font-weight: 400;
+}
+.map {
+	right: 1px;
+	float: right;
+	width: 182px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: hsla(32,100%,39%,1.00);
+	border: none;
+	color: burlywood;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 28px;
+	padding: 2px;
+	width: 200px;
+	cursor: pointer;
+	transition: all 0.5s;
+	margin-top: 690px;
+	margin-left: 300px;
+}
+.button span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span::after{
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span{
+  padding-right: 5px;
+}
+.button:hover span::after{
+  opacity: 1;
+  right: -20px;
+}

@@ -1,0 +1,248 @@
+body {
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-origin: padding-box;
+	background-image: url("../Abo Jo/body.jpg");
+}
+
+a {
+	text-decoration: underline;
+	color: hsla(0,95%,34%,1);
+    font-family: inika;
+	
+}
+
+p {
+	font-family: inika;
+	font-style: normal;
+	font-weight: 400;
+	font-size: medium;
+	text-align: left;
+}
+
+#container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-family: inika;
+	letter-spacing: .4em;
+	font-size: xx-large;
+	font-style: normal;
+	font-weight: 700;
+	text-decoration: underline;
+	text-indent: 0px;
+	text-shadow: 0px 0px 35px hsla(0,0%,0%,1.00);
+	padding-bottom: px;
+	margin-bottom: px;
+}
+
+h3 {
+	color: #000000;
+	text-decoration: underline;
+	letter-spacing: .2em;
+	margin-left: px;
+	text-align: left;
+}
+
+#header {
+	font-family: "Copperplate Gothic Bold";
+	padding-top: 47px;
+	padding-right: 47px;
+	padding-left: 47px;
+	padding-bottom: 47px;
+	color: #FFFFFF;
+	background-image: url("../Abo Jo/job1.png");
+	background-size: 100% 100%;
+	background-attachment: scroll;
+}
+#topnav {
+	color: black;
+	background-color: wheat;
+	height: 43px;
+	background-image: url("../Jo His/B.jpg");
+	padding-top: 1px;
+
+	
+}
+.royal {
+	float: right;
+padding:  8px;
+	margin-right: -35px;
+	border: thick double hsla(32,100%,39%,1.00);
+}
+
+
+
+
+#topnav a {
+	color: black;
+	font-family: inika;
+	font-style: normal;
+	font-weight: 400;
+	font-size: medium;
+}
+.table {
+	border-radius: 45px / 48px;
+	text-align: center;
+	font-family: inika;
+	font-style: normal;
+	font-weight: 400;
+	-webkit-box-shadow: inset 0px 0px 6px 2px hsla(32,100%,39%,1.00);
+	box-shadow: inset 0px 0px 6px 2px hsla(32,100%,39%,1.00);
+}
+
+
+#topnav li {
+	display: inline;
+	list-style: none;
+	float: left;
+	padding: 10px;
+	margin-right: 15px;
+}
+
+#content {
+	height: 1600px;
+	background-attachment: scroll;
+	background-color: wheat;
+	webkit-box-shadow: px 0px;
+	box-shadow: px 0px;
+}
+
+#sidenav {
+	width: 160px;
+	float: left;
+	
+}
+
+#sidenav li {
+	
+	list-style: square
+
+}
+
+#sidenav a {
+	
+	color: red;
+}
+
+
+#main {
+	width: 580px;
+	float: left;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	text-align: center;
+}
+#content #sidenav h3 {
+}
+.h4 {
+	font-family: inika;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.map {
+	float: right;
+	margin: 5px;
+	border: thick double hsla(32,100%,39%,1.00);
+	padding: 8px;
+}
+
+
+.button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: hsla(32,100%,39%,1.00);
+	border: none;
+	color: burlywood;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 28px;
+	padding: 2px;
+	width: 200px;
+	cursor: pointer;
+	transition: all 0.5s;
+	margin-top: 1420px;
+	margin-left: 300px;
+}
+.hit {
+	margin-right: 1000px;
+
+}
+
+.button span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span::after{
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span{
+  padding-right: 5px;
+}
+.button:hover span::after{
+  opacity: 1;
+  right: -20px;
+}
+
+.buttonb{
+	position: absolute;
+	transform: translate(50%, 50%);
+	background: hsla(32,100%,39%,1.00);
+	border: none;
+	color: burlywood;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 28px;
+	padding: 2px;
+	width: 200px;
+	cursor: pointer;
+	transition: all 0.5s;
+	top: 50%;
+	right: 50%;
+	margin-top: 1385px;
+	margin-right: 246px;
+}
+.buttonb span{
+  cursor: pointer;
+  display: inline-block;
+  position: static;
+  transition: 0.5s;
+}
+.buttonb span::before{
+  content: "\00ab";
+  position:static;
+  opacity: 0;
+  top: 0px;
+  left: -70px;
+  transition: 0.5s;
+}
+.buttonb:hover span{
+  padding-left: 25px;
+}
+.buttonb:hover span::before{
+  opacity: 1;
+  left: 2px;
+}
